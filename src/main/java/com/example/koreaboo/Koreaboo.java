@@ -1,4 +1,4 @@
-package com.example.asdf;
+package com.example.koreaboo;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
