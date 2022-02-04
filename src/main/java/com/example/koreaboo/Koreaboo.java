@@ -18,20 +18,20 @@ public class Koreaboo {
 		hm.put(65474, "a");
 
 		// start 01
-		hm.put(12594, "g");
-		hm.put(4353, "g");
-		hm.put(4521, "g");
-		hm.put(65442, "g");
+		hm.put(12594, "k");
+		hm.put(4353, "k");
+		hm.put(4521, "k");
+		hm.put(65442, "k");
 		// start 02
 		hm.put(12596, "n");
 		hm.put(4354, "n");
 		hm.put(4523, "n");
 		hm.put(65444, "n");
 		// start 03
-		hm.put(12599, "t");
-		hm.put(4355, "t");
-		hm.put(4526, "t");
-		hm.put(65447, "t");
+		hm.put(12599, "đ");
+		hm.put(4355, "đ");
+		hm.put(4526, "đ");
+		hm.put(65447, "đ");
 		// start 04
 		hm.put(12600, "t");
 		hm.put(4356, "t");
@@ -66,9 +66,9 @@ public class Koreaboo {
 		hm.put(4538, "s");
 		hm.put(65461, "s");
 		// start 11
-		hm.put(12614, "s");
-		hm.put(4362, "s");
-		hm.put(4539, "s");
+		hm.put(12614, "x");
+		hm.put(4362, "x");
+		hm.put(4539, "x");
 		// start 12
 		hm.put(12615, "");
 		hm.put(4363, "");
@@ -144,17 +144,17 @@ public class Koreaboo {
 		hm.put(4452, "yê");
 		hm.put(65477, "yê");
 		// mid 05
-		hm.put(12627, "ô");
-		hm.put(4453, "ô");
-		hm.put(65478, "ô");
+		hm.put(12627, "o");
+		hm.put(4453, "o");
+		hm.put(65478, "o");
 		// mid 06
 		hm.put(12628, "ê");
 		hm.put(4454, "ê");
 		hm.put(65479, "ê");
 		// mid 07
-		hm.put(12629, "yơ");
-		hm.put(4455, "yơ");
-		hm.put(65482, "yơ");
+		hm.put(12629, "yo");
+		hm.put(4455, "yo");
+		hm.put(65482, "yo");
 		// mid 08
 		hm.put(12630, "yê");
 		hm.put(4456, "yê");
@@ -296,11 +296,16 @@ public class Koreaboo {
 						System.out.print("t");
 					} else if ((((int) data.charAt(i)) == 12615 || ((int) data.charAt(i)) == 4363
 							|| ((int) data.charAt(i)) == 4540 || ((int) data.charAt(i)) == 65463) && i == 2) {
+						temp = "ng";
 						System.out.print("");
 						// out.print(temp);
 						writer.append(temp);
 						System.out.print(temp);
-						temp = "ng";
+//						System.out.print("");
+//						// out.print(temp);
+//						writer.append(temp);
+//						System.out.print(temp);
+//						temp = "ng";
 					} else if ((((int) data.charAt(i)) == 12615 || ((int) data.charAt(i)) == 4363
 							|| ((int) data.charAt(i)) == 4540 || ((int) data.charAt(i)) == 65463) && i == 0) {
 						// out.print(temp);
