@@ -1,4 +1,4 @@
-Korean to Vietnamese Phonetic Translator
+# Phonetic-Translator
 
 Korean to Vietnamese phonetic translator made using Java Text Normalizerlibrary as a tool to assist in learning Korean pronunciation. Frontend made with Vaadin and built with Maven.
 
